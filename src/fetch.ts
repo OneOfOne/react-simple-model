@@ -35,13 +35,7 @@ export async function Parse<T>(resp: Response): Promise<T> {
 	return data as T;
 }
 
-export async function Fetch(
-	url: string,
-	method: string = 'GET',
-	payload: any = null,
-	opts: RequestInit = {},
-): Promise<any> {
-	// performs api calls sending the required authentication headers
+export async function Fetch(url: string, method: string = 'GET', payload: any = null, opts: RequestInit = {}): Promise<any> {
 	const req: RequestInit = {
 		method: method || 'GET',
 		...opts,

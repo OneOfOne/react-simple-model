@@ -22,9 +22,7 @@
 	},
 	"homepage": "https://github.com/OneOfOne/react-simple-model#readme",
 	"devDependencies": {
-		"@types/react": "^16.7.17",
 		"prettier": "^1.15.3",
-		"react": "^16.6.3",
 		"tslint": "^5.12.0",
 		"tslint-config-prettier": "^1.17.0",
 		"typescript": "^3.2.2"
