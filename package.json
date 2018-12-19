@@ -1,0 +1,32 @@
+{
+	"name": "react-simple-model",
+	"version": "0.0.1",
+	"description": "A simple fetch-based data-sync for react.",
+	"main": "lib/index.js",
+	"types": "lib/index.d.ts",
+	"scripts": {
+		"format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+		"lint": "tslint -p tsconfig.json",
+		"build": "tsc",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/OneOfOne/react-simple-model.git"
+	},
+	"keywords": ["react", "backbone", "model", "save", "fetch", "sync"],
+	"author": "Ahmed W. <oneofone@gmail.com> (https://github.com/OneOfOne)",
+	"license": "Apache-2.0",
+	"bugs": {
+		"url": "https://github.com/OneOfOne/react-simple-model/issues"
+	},
+	"homepage": "https://github.com/OneOfOne/react-simple-model#readme",
+	"devDependencies": {
+		"@types/react": "^16.7.17",
+		"prettier": "^1.15.3",
+		"react": "^16.6.3",
+		"tslint": "^5.12.0",
+		"tslint-config-prettier": "^1.17.0",
+		"typescript": "^3.2.2"
+	}
+}
